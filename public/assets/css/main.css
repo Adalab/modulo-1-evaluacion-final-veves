@@ -9,36 +9,65 @@
   padding: 0 5px;
   border-radius: 5px; }
 
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff; }
-
-.link__github:hover {
-  background-color: #CCC;
-  color: #000; }
+.header {
+  display: flex;
+  background-color: #0271bc;
+  z-index: 1;
+  height: 45px;
+  width: 45px;
+  background-size: cover;
+  position: fixed;
+  justify-content: center;
+  align-items: center; }
+  .header a {
+    background-image: url("../images/ico-menu.svg");
+    height: 16px;
+    width: 15px; }
 
 body {
-  padding: 2rem;
+  font-family: 'Roboto', sans-serif; }
+
+.hero {
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-size: cover;
   height: 100vh;
-  background-image: url("../images/bg-adalab.png");
-  background-color: #f3f4f5;
-  font-family: "Roboto", sans-serif; }
-
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem; }
-
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100vw;
-  padding: 1rem;
-  color: #999; }
-
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px; }
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  padding: 20px; }
+  .hero h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    word-spacing: 250px; }
+  .hero h2 {
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    font-weight: lighter; }
+  .hero a {
+    display: flex;
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-bottom: 45px; }
+    .hero a div {
+      display: block;
+      background-image: url("../images/ico-scroll-down.svg");
+      background-size: cover;
+      z-index: 2;
+      height: 11.5px;
+      width: 20px; }
 
 /*# sourceMappingURL=main.css.map */
