@@ -10,5 +10,38 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-   
+   h1{
+     color: white;
+     text-transform: uppercase;
+     
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    word-spacing: 250px;
+   }
+   h2{
+     color: white;
+     font-size: 16px;
+     padding: 15px;
+     font-weight: lighter;
+   }
+   a{
+     display: flex;
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    div{display: block;
+      background-image: url("../images/ico-scroll-down.svg");
+      background-size: cover;
+      z-index: 2;
+      height: 11.5px;
+      width: 20px;
+    }
+  }
 }
