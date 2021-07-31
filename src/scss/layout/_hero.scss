@@ -1,4 +1,4 @@
-.hero{
+.hero {
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -10,25 +10,25 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-   h1{
-     color: white;
-     text-transform: uppercase;
-     
+  h1 {
+    color: white;
+    text-transform: uppercase;
+
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     font-size: 42px;
     line-height: 55px;
     word-spacing: 250px;
     max-width: 300px;
-   }
-   h2{
-     color: white;
-     font-size: 16px;
-     padding: 15px;
-     font-weight: lighter;
-   }
-   a{
-     display: flex;
+  }
+  h2 {
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    font-weight: lighter;
+  }
+  .link {
+    display: flex;
     background-color: white;
     height: 45px;
     width: 45px;
@@ -37,7 +37,8 @@
     border-radius: 22px;
     margin-top: 20px;
     margin-bottom: 45px;
-    div{display: block;
+    .down {
+      display: block;
       background-image: url("../images/ico-scroll-down.svg");
       background-size: cover;
       z-index: 2;

@@ -1,47 +1,49 @@
-.footer{
-    background-color: #304268;
-    display: flex;
-    flex-direction: column;   
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    .element{
-        padding: 10px;
-        border: dotted;
-        } 
-}
-
- .up{
+.footer {
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  padding-right: 40px;
+  padding-left: 40px;
+  .element {
+    padding: 10px;
+  }
+  .go {
     text-decoration: none;
-    transform: translate(0,-50%);
-     display: flex;
+    transform: translate(0, -95%);
+    display: flex;
     background-color: white;
     height: 45px;
     width: 45px;
     justify-content: center;
     align-items: center;
     border-radius: 22px;
-   
-     div{
-        display: block;
-        background-image: url("../images/ico-arrow.svg");
-        background-size: cover;
-        z-index: 2;
-        height: 24px;
-        width: 20px;
+
+    .up {
+      display: block;
+      background-image: url("../images/ico-arrow.svg");
+      background-size: cover;
+      z-index: 2;
+      height: 24px;
+      width: 20px;
+    }
   }
 }
-li{
-     list-style: none;
+li {
+  list-style: none;
 }
-.text{
-    color: white;
-    font-size: 16px;
-    font-family: 'Roboto';
-    font-weight: 200;
+.text {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 200;
+  line-height: 30px;
 }
-.link{
-    text-transform: uppercase;
-    text-decoration: none;
+.link {
+  text-transform: uppercase;
+  text-decoration: none;
 }
-
