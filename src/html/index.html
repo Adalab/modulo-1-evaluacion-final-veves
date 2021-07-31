@@ -16,89 +16,14 @@
 </head>
 
 <body>
-    <header>
-        <nav class="header">
-            <a href="https://adalab.es/"  target="_blank" title="enlace a Adalab" class="header"></a>
-        </nav>
-    </header>
+    <include src="./partials/header.html"></include>
     <main>
-        <section class="hero" id="hero">
-            <h1>anonimous proxy</h1>
-            <h2>In hac habitasse platea dictumst.</h2>
-            <a class="link" href="#purchase" title="soy un botón">
-                <div class="down"></div>
-            </a>
-        </section>
-        <section class="tips">
-            <p class="littlep">Insomnia Tips</p>
-            <h3 class="tittle">Looking Through A Window</h3>
-            <p class="explanation">
-                Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
-                at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
-            </p>
-            <a class="button">Go</a>
-        </section>
-        <section class="purchase" id="purchase">
-            <h3>3 Reasons To Purchase</h3>
-            <article>
-                <h4>Ut sed metus</h4>
-                <p>Lorem ipsum dolor sit amet, consecteur.</p>
-            </article>
-            <article>
-                <h4>Ut sed metus</h4>
-                <p>Lorem ipsum dolor sit amet, consecteur.</p>
-            </article>
-            <article>
-                <h4>Ut sed metus</h4>
-                <p>Lorem ipsum dolor sit amet, consecteur.</p>
-            </article>
-            <a>
-                <p>More reasons</p>
-            </a>
-        </section>
+        <include src="./partials/hero.html"></include>
+        
+        
+        <include src="./partials/tips.html"></include>
+        <include src="./partials/purchase.html"></include>
     </main>
-    <footer class="footer">
-        <a class="go" href="#hero" title="volver al inicio">
-            <div class="up"></div>
-        </a>
-        <div class="flex">
-            <nav class="element">
-                <ul>
-                    <li>
-                        <a class="text link" href="https://adalab.es/" target="_blank">Articles</a>
-                    </li>
-                    <li>
-                        <a class="text link"  href="https://adalab.es/" target="_blank">Books</a>
-                    </li>
-                    <li>
-                        <a class="text link" href="https://adalab.es/" target="_blank">Events</a>
-                    </li>
-                    <li>
-                        <a class="text link" class="link" href="https://adalab.es/" target="_blank">Reasons</a>
-                    </li>
-                    <li>
-                        <a class="text link" href="https://adalab.es/" target="_blank">Tips</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="element">
-                <ul>
-                    <li>
-                        <a class="text link" href="https://adalab.es/" target="_blank">Twitter</a>
-                    </li>
-                    <li>
-                        <a class="text link" href="https://adalab.es/" target="_blank">Instagram</a>
-                    </li>
-                    <li>
-                        <a class="text link" href="https://adalab.es/" target="_blank">Mastodon.social</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="copy">
-                <p class="text">&copy;2021</p>
-                <p class="text">We &hearts; components</p>
-            </div>
-        </div>
-    </footer>
+    <include src="./partials/footer.html"></include>
 </body>
 </html>
