@@ -13,19 +13,25 @@
   h1 {
     color: white;
     text-transform: uppercase;
-
+    // solo si es necesario max-width: 300px;
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     font-size: 42px;
     line-height: 55px;
     word-spacing: 250px;
-    max-width: 300px;
+    @media screen and (min-width: 768px){
+      font-size: 80px;
+      line-height: 106px;
+    }
   }
   h2 {
     color: white;
     font-size: 16px;
     padding: 15px;
     font-weight: lighter;
+    @media screen and (min-width: 768px){
+      font-size: 24px;
+    }
   }
   .link {
     display: flex;
