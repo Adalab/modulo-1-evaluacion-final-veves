@@ -1,6 +1,7 @@
 .purchase {
   background-color: #eff9ff;
   display: grid;
+  width: 100vw;
   grid-template-columns: 1fr;
   grid-template-rows: repeat (5, 1fr);
   row-gap: 45px;
@@ -11,29 +12,47 @@
   padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
-  @media screen and( min-width: 782px) {
+  @media screen and( min-width: 768px) {
     height: 400px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-rows: 20% 60% 20%;
   }
 }
-.article{
-   padding-bottom: 45px; 
-   padding-left: 55px;
-   padding-right: 55px;
+.article {
+  padding-bottom: 45px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.itemt {
+  @media screen and( min-width: 768px) {
+    grid-column: span 3;
+  }
+}
+.item1 {
+  @media screen and( min-width: 768px) {
+    grid-column: span 1;
+  }
+}
+.item2 {
+  @media screen and( min-width: 768px) {
+    grid-column: span 1;
+  }
+}
+.item3 {
+  @media screen and( min-width: 768px) {
+    grid-column: span 1;
+  }
 }
 .more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    @media screen and (min-width: 768px) {
-      font-size: 26px;
-      height: 45px;
-      width: 91px;
-      border-radius: 22px;
-    }
-    .info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and( min-width: 768px) {
+    grid-column: span 1;
+    transform: translate(100%, -130%);
+  }
+
+  .info {
     height: 45px;
     width: 184px;
     line-height: 40px;
@@ -42,19 +61,31 @@
     background-color: #f26002;
     color: white;
     font-size: 20px;
-    }
   }
-  .r3tittle{
-      font-size:24px;
-      line-height: 30px;
-      font-family: "Roboto Slab", serif;
+}
+.r3tittle {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Roboto Slab", serif;
+
+  @media screen and( min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
   }
-  .r3reasons{
-      font-size: 18px;
-      line-height: 30px;
-      font-weight: bolder;
+  @media screen and( min-width: 1280px) {
+    font-size: 32px;
+    line-height: 45px;
   }
-  .r3explain{
-      font-size: 18px;
-      line-height: 30px;
+}
+.r3reasons {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bolder;
+  @media screen and( min-width: 768px) {
+    font-size: 24px;
   }
+}
+.r3explain {
+  font-size: 18px;
+  line-height: 30px;
+}
