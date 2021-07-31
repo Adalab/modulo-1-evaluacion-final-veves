@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="e">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100;300;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./assets/css/main.css">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100;300;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
     <title>Adalab Evaluacion final modulo 1 Veves</title>
 </head>
+
 <body>
-    <header><nav class="header">
-        <a href="https://adalab.es/" title="enlace a Adalab" class="header"></a>
-    </nav>
+    <header>
+        <nav class="header">
+            <a href="https://adalab.es/"  target="_blank" title="enlace a Adalab" class="header"></a>
+        </nav>
     </header>
     <main>
-        <section class="hero">
-                <h1>anonimous proxy</h1>
-                <h2>In hac habitasse platea dictumst.</h2>
-                <a href="/" title="soy un botón"><div></div></a>
+        <section class="hero" id="hero">
+            <h1>anonimous proxy</h1>
+            <h2>In hac habitasse platea dictumst.</h2>
+            <a class="link" href="#purchase" title="soy un botón">
+                <div class="down"></div>
+            </a>
         </section>
-        <section>
-            <p>Insomnia Tips</p>
-            <h3>Looking Through A Window</h3>
-            <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-            <a>Go</a>
+        <section class="tips">
+            <p class="littlep">Insomnia Tips</p>
+            <h3 class="tittle">Looking Through A Window</h3>
+            <p class="explanation">
+                Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
+                at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+            </p>
+            <a class="button">Go</a>
         </section>
-        <section>
+        <section class="purchase" id="purchase">
             <h3>3 Reasons To Purchase</h3>
             <article>
                 <h4>Ut sed metus</h4>
@@ -43,28 +52,52 @@
                 <h4>Ut sed metus</h4>
                 <p>Lorem ipsum dolor sit amet, consecteur.</p>
             </article>
-            <a><p>More reasons</p></a>
+            <a>
+                <p>More reasons</p>
+            </a>
         </section>
     </main>
-    <footer>
-        <a><img></a>
-        <div>  
-            <div>
-                <a>articles</a>
-                <a>books</a>
-                <a>events</a>
-                <a>reasons</a>
-                <a>tias</a>
+    <footer class="footer">
+        <a class="go" href="#hero" title="volver al inicio">
+            <div class="up"></div>
+        </a>
+        <div class="flex">
+            <nav class="element">
+                <ul>
+                    <li>
+                        <a class="text link" href="https://adalab.es/" target="_blank">Articles</a>
+                    </li>
+                    <li>
+                        <a class="text link"  href="https://adalab.es/" target="_blank">Books</a>
+                    </li>
+                    <li>
+                        <a class="text link" href="https://adalab.es/" target="_blank">Events</a>
+                    </li>
+                    <li>
+                        <a class="text link" class="link" href="https://adalab.es/" target="_blank">Reasons</a>
+                    </li>
+                    <li>
+                        <a class="text link" href="https://adalab.es/" target="_blank">Tips</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="element">
+                <ul>
+                    <li>
+                        <a class="text link" href="https://adalab.es/" target="_blank">Twiter</a>
+                    </li>
+                    <li>
+                        <a class="text link" href="https://adalab.es/" target="_blank">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="text link" href="https://adalab.es/" target="_blank">Mastodon.social</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copy">
+                <p class="text">&copy;2021</p>
+                <p class="text">We &hearts; components</p>
             </div>
-            <div>
-                <a>twitter</a>
-                <a>instagram</a>
-                <a>mastodon.social</a>
-            </div>
-            <div>
-                <p>©2017</p>
-            <p>we ❤︎ components</p>
-        </div>
         </div>
     </footer>
 </body>
