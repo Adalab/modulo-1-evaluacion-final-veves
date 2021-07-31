@@ -13,7 +13,6 @@
   h1 {
     color: white;
     text-transform: uppercase;
-    // solo si es necesario max-width: 300px;
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     font-size: 42px;
@@ -22,6 +21,11 @@
     @media screen and (min-width: 768px){
       font-size: 80px;
       line-height: 106px;
+    }
+    @media screen and (min-width: 1280px){
+      font-size: 100px;
+      line-height: 132px;
+      max-width: 1000px;
     }
   }
   h2 {
