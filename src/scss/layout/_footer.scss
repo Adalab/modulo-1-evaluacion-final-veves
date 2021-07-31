@@ -3,18 +3,41 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;  
+}
+.flex{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 35px;
   padding-right: 40px;
   padding-left: 40px;
+  @media screen and (min-width: 768px){
+      width: 768px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
   .element {
     padding: 10px;
+    @media screen and (min-width: 768px){
+        order: 2;
+    }
   }
-  .go {
+  .copy{
+      padding: 10px;
+      @media screen and (min-width: 768px){
+        order: 1;
+    }
+  }
+  
+}
+.go {
     text-decoration: none;
-    transform: translate(0, -95%);
+    transform: translateY( -50%);
     display: flex;
     background-color: white;
     height: 45px;
@@ -32,7 +55,6 @@
       width: 20px;
     }
   }
-}
 li {
   list-style: none;
 }
